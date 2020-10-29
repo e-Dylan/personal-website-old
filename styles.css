@@ -1,0 +1,440 @@
+/* Global */
+
+body, html {
+
+  font-family: "Asap", sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+ul {
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.darkButton {
+
+  background: #445;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  padding: 12px;
+  font-size: 14px;
+
+}
+
+.darkButton:hover {
+
+  background: #333;
+
+}
+
+
+
+/* Header */
+
+nav {
+
+  margin-left: 250px;
+
+}
+
+header nav li{
+
+  color: gray;
+  float: left;
+  margin-top: 50px;
+  display: inline;
+
+}
+
+nav li a{
+
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+  padding: 10px 18px 10px 18px;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.contact-header {
+
+  position: absolute;
+  margin-top: -4px;
+  right: 200px;
+
+}
+
+nav li a:hover {
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+/* Landing Image */
+
+.landing-image {
+
+    background-image: url("https://source.unsplash.com/laDYRzr6xDQ/1600x900");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.ptext {
+
+  position: absolute;
+  top: 42.8%;
+  width: 103%;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+}
+
+.ptext .ptext-border {
+
+  padding: 5px;
+  background: white;
+  color: #;
+  margin-left: 25px;
+
+}
+
+
+.landingDiv {
+
+  overflow: hidden;
+  width: 50%;
+  color: white;
+
+}
+
+.landingDiv h1 {
+
+  position: absolute;
+  top: 40%;
+  margin-left: -150px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+
+}
+
+.landingDiv h3 {
+
+  position: absolute;
+  top: 45%;
+  width: 60%;
+  margin-left: -150px;
+  line-height: 30px;
+  font-size: 25px;
+
+}
+
+.github-link {
+
+  text-decoration: normal;
+  color: rgb(97, 47, 97);
+
+}
+
+.self-info {
+	color: white;
+}
+
+.landingDiv p {
+
+  position: absolute;
+  top: 56%;
+  width: 45%;
+  margin-left: -150px;
+
+}
+
+/* Social Media Links */
+
+.social-media {
+
+  width: 20px;
+  margin-top: 475px;
+
+}
+
+.social-media img {
+
+  width: 25px;
+
+}
+
+#read-more{
+
+  font-family: "Asap", sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+
+}
+#read-more:hover, #read-more:focus {
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+
+/* My Work Section */
+
+.wrap {
+
+  width: 50%;
+  margin-left: 500px;
+  text-align: left;
+
+}
+
+.my-work {
+
+  background: #222;
+  color: white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+
+#mywork-h1 {
+
+  font-weight: 200;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  padding: 20px 0 40px 0;
+
+}
+
+.my-work p {
+
+  line-height: 25px;
+  font-family: "Helvetica", sans-serif;
+  padding-bottom: 30px;
+
+}
+
+.info div{
+
+  display: inline-block;
+  float: none;
+
+}
+
+.info h1 {
+
+  font-size: 16px;
+  font-weight: 300px;
+
+}
+
+.info li {
+
+  font-size: 14px;
+
+}
+
+/* Popular Projects Div */
+
+.center-wrap {
+
+  width: 70%;
+  text-align: left;
+  margin-left: 25vw;
+
+}
+
+.popular-projects h1 {
+
+  font-size: 20px;
+  padding: 40px 0 20px 0;
+  font-weight: lighter;
+
+}
+
+.popular-projects-table {
+
+  display: block;
+  padding-bottom: 120px;
+
+}
+
+.popular-projects-table th {
+
+  font-size: 15px;
+
+}
+
+.popular-projects-table a {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+.popular-projects-table th, td {
+
+  padding: 12px;
+  border-top: 2px solid lightgray;
+
+}
+
+/* Future Ventures Div */
+
+/* wrapped in center wrap */
+.future-ventures h1 {
+
+  font-size: 20px;
+  padding: 0 0 20px 0;
+  font-weight: lighter;
+
+}
+
+.future-ventures li {
+
+  margin-left: 30px;
+  line-height: 25px;
+
+}
+
+.future-ventures p {
+
+  padding-top: 25px;
+
+}
+
+.info-buttons {
+
+  margin: 100px;
+  text-align: center;
+
+
+}
+
+#software-button {
+
+  margin-right: 300px;
+
+}
+
+/* Stay Connected Div */
+
+.stay-connected {
+
+  text-align: center;
+  padding: 50px;
+  background: #333;
+  color: white;
+
+}
+
+.stay-connected h1 {
+
+  text-transform: uppercase;
+  font-size: 19px;
+  padding: 20px;
+
+}
+
+.stay-connected img {
+
+  width: 37px;
+  padding: 3px;
+  margin-bottom: 40px;
+
+}
+
+footer {
+
+  background: #222;
+  padding: 40px;
+  text-align: center;
+
+}
+
+footer a {
+
+  text-decoration: none;
+  color: white;
+  padding: 0 60px 0 60px;
+  border-right: #444 solid 1px;
+
+}
+
+/* Software Page */
+
+/* Header */
+.header-dropdown a{
+
+  color: #555;
+
+}
+
+.header-dropdown a:hover {
+
+  background-color: #eee;
+
+}
+
+/* Software Repository */
+
+.software-repository {
+
+  position: absolute;
+  top: 20vh;
+  width: 80%;
+  margin-left: 400px;
+
+}
+
+.software-repository h1 {
+
+  font-size: 26px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+
+}
+
+.software-repository-table th, td {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 1px solid #eee;
+  font-weight: lighter;
+
+}
+
+.footer-software {
+
+  background: #222;
+  padding: 40px;
+  text-align: center;
+  margin-top: 20px;
+
+  }
+
+.footer-software a {
+
+  text-decoration: none;
+  color: white;
+  padding: 0 60px 0 60px;
+  border-right: #444 solid 1px;
+
+}
